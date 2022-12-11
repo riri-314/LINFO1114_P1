@@ -24,4 +24,5 @@ Made by Henri Pihet as part of the discrete mathematics course given by professo
 ---
 
 GitHub [Project](https://github.com/riri-314/LINFO1114_P1)  &nbsp;&middot;&nbsp; 
-Github [@riri-314](https://github.com/riri-314) 
+Github [@riri-314](https://github.com/riri-314) &nbsp;&middot;&nbsp; 
+OverLeaf [Rapport](https://www.overleaf.com/read/rhnbggpzzzdt)
