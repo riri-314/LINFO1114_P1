@@ -26,6 +26,8 @@ def csv_to_matrix(filename):
     return data_matrix
 
 
+
+#funtion that help in the process of manually translating the .jpg source graph to the numpy matrix
 def is_symmetric(matrix, N):
   for i in range(N):
     for j in range(N):
@@ -54,6 +56,7 @@ def main(input_file):
     try:
         # Test converting csv to matrix 
         matrix = csv_to_matrix(input_file)
+        # Testing symmetry of the matrix
         if (is_symmetric(matrix, 10) != True):
             print("Error: Matrix is not symmetric")
             return -1
@@ -81,7 +84,10 @@ def main(input_file):
             
     except:
         # Return error message if converting to matrix failed
+        # May be caused by a non square matrix, common error
         print("Error: converting csv to matrix")
         return -1
 
+
+# Run 
 main("graph28.csv")

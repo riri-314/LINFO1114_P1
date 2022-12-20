@@ -18,6 +18,7 @@ def Dijkstra(graph):
     # Create a priority queue to store the nodes to be processed
     # This queue will be sorted by the distance to the node,
     # so that the node with the shortest distance will be processed first
+    # It's my first time using it, not sure of what i'm doing. But it's said to be efficient
     queue = [(0, start)]
   
     # Loop until the priority queue is empty
